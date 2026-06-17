@@ -12,7 +12,7 @@ Il sistema dinamico e la strategia di controllo sono stati strutturati analizzan
 * **Equazione della Ricchezza (Portfolio Wealth):** Modellazione degli stati per un portafoglio composto da $n$ asset rischiosi, un asset privo di rischio (*risk-free*) ed eventuale capitale a prestito.
 * **Campionamento Giornaliero:** Trattamento dei prezzi di chiusura dei titoli azionari calcolandone il rendimento logaritmico ($\eta_i$), impostando un tempo di campionamento $T_s$ pari a un giorno lavorativo.
 * **Controllo Predittivo (MPC):** Formulazione del problema di ottimizzazione su un orizzonte temporale mobile ($N$), bilanciando il trade-off tra performance computazionali e accuratezza del tracciamento.
-* **Vincoli e Gestione del Rischio:** Integrazione di metriche di rischio finanziario come il **CVaR (Conditional Value at Risk)** all'interno della funzione di costo e gestione dei limiti fisici di non-negatività sul capitale investito ($u_i(k) \ge 0$).
+* **Vincoli e Gestione del Rischio:** Integrazione di metriche di rischio finanziario come il **CVaR (Conditional Value at Risk)** all'interno della funzione di costo e gestione dei limiti fisici di non-negatività sul capitale investito.
 
 ## Analisi e Conclusioni Critiche
 Le simulazioni numeriche (eseguite su campioni storici del mercato azionario brasiliano) hanno evidenziato:
@@ -24,7 +24,7 @@ Le simulazioni numeriche (eseguite su campioni storici del mercato azionario bra
 * **[Relazione_Progetto_CPS.pdf](./progetto_CPS_Alessandro_Di_Santo.pdf)**: Il report tecnico scritto completo, contenente le equazioni di stato del sistema, le specifiche di costo dell'algoritmo e gli screenshot delle simulazioni e del codice implementato in **MATLAB**.
 * **[Presentazione_Progetto_CPS.pptx](./PROGETTO_CPS.pptx)**: Le slide PowerPoint complete utilizzate in sede di discussione finale per riassumere i grafici dei flussi di ricchezza e l'analisi dei parametri di efficienza.
 * **progetto_CPS_TESTING.mlx**: codice MATLAB riportato anche sul report tecnico.
-* **dati_storici**: dati utilizzati per lo studio presi dal sito Investing.com (tradotti in documento Excel attraverso codice MATLAB: **dati_B3.csv**) 
+* **dati_storici.zip**: dati utilizzati per lo studio presi dal sito Investing.com (tradotti in documento Excel attraverso codice MATLAB: **dati_B3.csv**) 
 
 ---
 *Studente: Alessandro Di Santo*  
