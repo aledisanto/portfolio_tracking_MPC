@@ -23,6 +23,8 @@ Le simulazioni numeriche (eseguite su campioni storici del mercato azionario bra
 ## Contenuto della Repository
 * **[Relazione_Progetto_CPS.pdf](./progetto_CPS_Alessandro_Di_Santo.pdf)**: Il report tecnico scritto completo, contenente le equazioni di stato del sistema, le specifiche di costo dell'algoritmo e gli screenshot delle simulazioni e del codice implementato in **MATLAB**.
 * **[Presentazione_Progetto_CPS.pptx](./PROGETTO_CPS.pptx)**: Le slide PowerPoint complete utilizzate in sede di discussione finale per riassumere i grafici dei flussi di ricchezza e l'analisi dei parametri di efficienza.
+* **progetto_CPS_TESTING.mlx**: codice MATLAB riportato anche sul report tecnico.
+* **dati_storici**: dati utilizzati per lo studio presi dal sito Investing.com (tradotti in documento Excel attraverso codice MATLAB: **dati_B3.csv**) 
 
 ---
 *Studente: Alessandro Di Santo*  
